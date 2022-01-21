@@ -1,7 +1,8 @@
 .container
 {
-    max-width: 480px;
+    max-width: 600px;
     width: 100%;
+    overflow-x:auto;
 }
 .logo
 {
@@ -11,6 +12,14 @@
 {
     margin-left: 2px;
     float: left;
+}
+.pengigat {
+    font-size: 12ox;
+}
+.card-text
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 9pt;
 }
 .name
 {
@@ -45,4 +54,17 @@ font-size: 14px;
 .foto
 {
     float: right;
+}
+
+@media screen and (max-width:100px) {
+
+  }
+
+#more
+{
+    display: none;
+}
+#btn-more
+{
+    color: darkturquoise;
 }
